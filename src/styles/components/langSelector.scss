@@ -1,0 +1,30 @@
+$selector-color: #300050;
+$selector-font-color: $white;
+
+.lang-selector {
+    color: $selector-font-color;
+
+    .flag {
+        width: 20%;
+        height: 10%;
+    }
+    .lang-selector-style__control {
+        background-color: $selector-color;
+        padding-top: 2.2%;
+        padding-bottom: 2.2%;
+        box-shadow: none;
+        border: none;
+    }
+    .lang-selector-style__single-value {
+        color: $selector-font-color;
+    }
+    .lang-selector-style__menu {
+        border: none;
+        padding-top: none;
+        padding-bottom: none;
+    }
+    .lang-selector-style__option {
+        background-color: $selector-color;
+        border: none;
+    }
+}
